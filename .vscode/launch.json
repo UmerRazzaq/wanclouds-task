@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     
+    {
+        "name":"Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://103.1.5.209:3000",
+        "webRoot": "${workspaceRoot}/src",
+        // "sourceMapPathOverrides":{
+        //     "webpack:///./*": "${webRoot}/*"
+            // "webpack:///src/*": "${webRoot}/*",
+            // "webpack:///*": "*",
+            // "webpack:///./~/*": "${webRoot}/node_modules/*",
+            // "meteor://💻app/*": "${webRoot}/*"
+      //  }
+      //"start": "webpack-dev-server -p --public 13.236.94.234:8080"
+    }
+    ]
+}
